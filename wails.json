@@ -1,0 +1,9 @@
+{
+  "name": "SimpleOSCTransmitter",
+  "outputfilename": "SimpleOSCTransmitter",
+  "wailsjsdir": "./frontend",
+  "author": {
+    "name": "あんふぃとらいと",
+    "email": "amphie@amphitrite632.com"
+  }
+}

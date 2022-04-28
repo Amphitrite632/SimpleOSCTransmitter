@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleOSCTransmitter</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="box" id="input">
+      <p class="name">SimpleOSCTransmitter v0.9</p>
+      <p class="description">Address:</p>
+      <input class="input" id="address" type="text" autocomplete="off" />
+      <p class="description">Value:</p>
+      <input class="input" id="value" type="text" autocomplete="off" />
+      <form class="typeform" id="typeform">
+        <input id="bool" class="radio" type="radio" name="type" value="bool" checked="checked"/>
+        <label class="radio_label" for="bool">
+            bool
+        </label>
+        <input id="int" class="radio" type="radio" name="type" value="int"/>
+        <label class="radio_label" for="int">
+            int
+        </label>
+        <input id="float" class="radio" type="radio" name="type" value="float"/>
+        <label class="radio_label" for="float">
+            float
+        </label>
+      </form>
+      <button class="btn" id="btn" onclick="onPush()">Transmission</button>
+    </div>
+    <p id="text">> Ready</p>
+    <script src="main.js"></script>
+  </body>
+</html>
